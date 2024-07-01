@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color:#C8A97E;
+    --heading-text-color:#333333;
+    --par-text-color:#666666;
+    --sec-text-color:#000000cc;
+    --light-text:#0000004d;
+    --bg-dark:#141313;
+    --bg-light:#ffffff1a;
+    --light-gray:#ffffffb3;
+    --font-family-poppins:"Poppins", sans-serif;
+    --font-family-great-vibes:"Great Vibes", cursive;
+    --bt-text-color:white;
+}
+.great-vibes{
+    font-family: "Great Vibes", cursive;
+}
+.poppins{
+    font-family: "Poppins", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.btn-main{
+    color: white;
+    background-color: var(--main-color);
+}
+footer{
+    color: var(--light-gray);
+    font-size: 14px;
+}
+footer{
+    padding: 84px 0px;
+}
+footer h2{
+    color: white;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+footer p{
+    margin-bottom: 16px;
+    line-height: 2;
+}
+footer ul a{
+    color: white;
+    background-color: #ffffff0d;
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-size: 19px;
+}
+footer ul #face{
+    padding: 10px 19px;
+}
+footer form .text-input{
+    padding: 10px 16px;
+    outline: none;
+    border: none;
+    background-color: #2C2B2B;
+    width: 100%;
+}
+footer form .text-input::placeholder{
+    font-size: 18px;
+    color: rgb(185, 185, 185);
+}
+footer form .btn{
+    padding: 10px 16px;
+    width: 100%;
+    font-size: 16px;
+}
+footer form *{
+    border-radius: 3px !important;
+}
+footer form .btn:hover{
+    background-color: var(--main-color);
+}
