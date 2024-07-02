@@ -26,10 +26,86 @@
 a{
     text-decoration: none;
 }
+section{
+    padding: 119px 0px;
+}
+.container{
+    margin: auto;
+    width: 75% !important;
+}
 .btn-main{
     color: white;
     background-color: var(--main-color);
 }
+.section-header{
+    position: relative;
+}
+.section-header .main-title{
+    font-size: 50px;
+    position: relative;
+    z-index: 2;
+    font-weight: 900;
+    color: var(--heading-text-color);
+}
+.section-header .sub-title{
+    font-size: 100px;
+    color: var(--main-color);
+    position: absolute;
+    top: -85%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%);
+}
+.services svg{
+    width: 65px;
+}
+.services svg path{
+    fill: var(--main-color);
+}
+.services .row .content h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.services .row .content p{
+    font-size: 17px;
+    margin-bottom: 16px;
+    color: var(--par-text-color);
+    line-height: 2;
+}
+.menu .item-img{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.menu .menu-item-con{
+    padding: 0px !important;
+}
+/* .menu .menu-item{
+} */
+.menu .item-text{
+    
+    width: 100%;
+}
+.menu .item-text .text{
+    padding: 30px 20px;
+}
+.menu .item-text h3{
+    font-size: 20px;
+}
+.menu .item-text p{
+    font-size: 17px;
+}
+.menu .item-text p{
+    font-size: 17px;
+}
+.menu .item-text .price{
+    font-weight: 600;
+    color: var(--main-color);
+    font-size: 20px;
+}
+
+/* footer start */
 footer{
     color: var(--light-gray);
     font-size: 14px;
@@ -68,6 +144,32 @@ footer form .text-input::placeholder{
     font-size: 18px;
     color: rgb(185, 185, 185);
 }
+footer .insta-images a{
+    /* display: block; */
+    height:100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-position: 0; */
+    background-size: 100%;;
+}
+footer .insta-images a:nth-child(1){
+    background-image: url(../img/insta-1.jpg);
+}
+footer .insta-images a:nth-child(2){
+    background-image: url(../img/insta-2.jpg);
+}
+footer .insta-images a:nth-child(3){
+    background-image: url(../img/insta-3.jpg);
+}
+footer .insta-images a:nth-child(4){
+    background-image: url(../img/insta-4.jpg);
+}
+footer .insta-images a:nth-child(5){
+    background-image: url(../img/insta-5.jpg);
+}
+footer .insta-images a:nth-child(6){
+    background-image: url(../img/insta-6.jpg);
+}
 footer form .btn{
     padding: 10px 16px;
     width: 100%;
@@ -78,4 +180,6 @@ footer form *{
 }
 footer form .btn:hover{
     background-color: var(--main-color);
+    color: white;
 }
+/* fotter end */
