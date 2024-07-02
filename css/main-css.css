@@ -31,7 +31,7 @@ section{
 }
 .container{
     margin: auto;
-    width: 75% !important;
+    width: 74.5% !important;
 }
 .btn-main{
     color: white;
@@ -104,7 +104,32 @@ section{
     color: var(--main-color);
     font-size: 20px;
 }
-
+.chef .container .row .img-box img{
+    width: 100%;
+    border-radius: 5px;
+}
+.chef .box-content .icon-list{
+    margin-bottom: 16px;
+}
+.chef .box-content .icon-list li{
+    margin-right: 10px;
+}
+.chef .box-content h3{
+    color: var(--heading-text-color);
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+.chef .box-content span{
+    color: var(--light-text);
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+.chef .box-content .icon-list li a{
+    color: var(--main-color);
+    font-size: 17px;
+}
 /* footer start */
 footer{
     color: var(--light-gray);
