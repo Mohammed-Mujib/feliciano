@@ -572,8 +572,19 @@ footer form .btn:hover{
 /* fotter end */
 
 @media only screen and (max-width:768px) {
+    .top-heading{
+        display: none !important;
+    }
+    .navbar{
+        top: 0;
+        padding: 20px !important;
+        background-color: black !important;
+    }
+    .navbar-brand{
+        font-size: 30px !important;
+    }
     .container{
-        width: 99% !important;
+        width: 100% !important;
     }
     .hot-menu .inner-container{
         margin-top: 0px !important;
