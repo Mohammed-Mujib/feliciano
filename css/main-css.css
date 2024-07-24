@@ -617,4 +617,9 @@ footer form .btn:hover{
         width: 100%;
         height: 250px;
     }
+    .testimony .carousel .carousel-inner .carousel-item :nth-child(2),
+    .testimony .carousel .carousel-inner .carousel-item :nth-child(3)
+    {
+        display: none;
+    }
 }
